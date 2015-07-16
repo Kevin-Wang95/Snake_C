@@ -1,0 +1,69 @@
+﻿生成启动时间为 2015/7/16 11:27:41。
+     1>项目“E:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\2.0.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp menu_ColorTextChoose.cpp snakebasic.cpp
+         snakebasic.cpp
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(9): error C2955: “SnakeRunning”: 使用 类 模板 需要 模板 参数列表
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(25) : 参见“SnakeRunning”的声明
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(37): error C2244: “SnakeRunning<T>::SnakeRunning”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(28) : 参见“SnakeRunning<T>::SnakeRunning”的声明
+                 定义
+                 'SnakeRunning::SnakeRunning(void)'
+                 现有声明
+                 'SnakeRunning<T>::SnakeRunning(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(52): error C2244: “SnakeRunning<T>::init”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(36) : 参见“SnakeRunning<T>::init”的声明
+                 定义
+                 'void SnakeRunning::init(void)'
+                 现有声明
+                 'void SnakeRunning<T>::init(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(67): error C2244: “SnakeRunning<T>::put_food”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(39) : 参见“SnakeRunning<T>::put_food”的声明
+                 定义
+                 'void SnakeRunning::put_food(void)'
+                 现有声明
+                 'void SnakeRunning<T>::put_food(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(89): error C2244: “SnakeRunning<T>::game_over”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(32) : 参见“SnakeRunning<T>::game_over”的声明
+                 定义
+                 'bool SnakeRunning::game_over(void)'
+                 现有声明
+                 'bool SnakeRunning<T>::game_over(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(102): error C2244: “SnakeRunning<T>::print”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(30) : 参见“SnakeRunning<T>::print”的声明
+                 定义
+                 'void SnakeRunning::print(void)'
+                 现有声明
+                 'void SnakeRunning<T>::print(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(129): error C2244: “SnakeRunning<T>::modify_direc”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(31) : 参见“SnakeRunning<T>::modify_direc”的声明
+                 定义
+                 'void SnakeRunning::modify_direc(char)'
+                 现有声明
+                 'void SnakeRunning<T>::modify_direc(char)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(166): error C2244: “SnakeRunning<T>::move”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(38) : 参见“SnakeRunning<T>::move”的声明
+                 定义
+                 'void SnakeRunning::move(int,int)'
+                 现有声明
+                 'void SnakeRunning<T>::move(int,int)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(177): error C2244: “SnakeRunning<T>::~SnakeRunning”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(29) : 参见“SnakeRunning<T>::~SnakeRunning”的声明
+                 定义
+                 'SnakeRunning::~SnakeRunning(void)'
+                 现有声明
+                 'SnakeRunning<T>::~SnakeRunning(void)'
+     1>e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.cpp(183): error C2244: “SnakeRunning<T>::save”: 无法将函数定义与现有的声明匹配
+                 e:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\snakebasic.h(33) : 参见“SnakeRunning<T>::save”的声明
+                 定义
+                 'void SnakeRunning::save(void)'
+                 现有声明
+                 'T SnakeRunning<T>::save(void)'
+         menu_ColorTextChoose.cpp
+         main.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\！课件\计算机程序设计基础（2）\小学期大作业\2.0\2.0\2.0.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.05
